@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samira Ali">
+    <meta name="description" content="The official website for Biryani Bliss">
+    <title>Biryani Bliss</title>
+    <link rel="icon" href="img/Biryani Bliss Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1"><img src="img/Biryani Bliss Logo.png" alt="Logo" width="100" height="100"></h1> 
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="hero__h2">حلال</h2>
+        <figure>
+            <img src="/img/Biryani Bliss.jpg" alt="Handi Biryani" title="We love Biryani!" width="1000" height="500">
+            <figcaption class="offscreen">
+                Handi Biryani
+            </figcaption>
+        </figure>     
+    </section>
+
+    <main class="main">
+        <article id="menu" class="main__article menu">
+            <h2 class="menu__h2">Our Menu</h2>
+            <table class="menu__container">
+                <caption class="offscreen">Our Biryani</caption>
+                <thead>
+                    <tr>
+                        <th class="menu__header" scope="col">Biryani</th>
+                        <th class="menu__header" scope="col">Item</th>
+                        <th class="menu__header" scope="col">Quantity</th>
+                        <th class="menu__header" scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="menu__item menu__rg" scope="row" rowspan="3">Regular</th>
+                        <td class="menu__item">Chicken</td>
+                        <td class="menu__item">2:1/4:1</td>  
+                        <td class="menu__item">$3.00/$5.00</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">Beef</td>
+                        <td class="menu__item">2:1/4:1</td>
+                        <td class="menu__item">$3.50/$5.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">Mutton</td>
+                        <td class="menu__item">2:1/4:1</td>
+                        <td class="menu__item">$4.00/$6.00</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__item menu__sp" scope="row" rowspan="3">Special</th>
+                        <td class="menu__item">Lucknowi Biryani</td>
+                        <td class="menu__item">2:1/4:1</td>
+                        <td class="menu__item">$7.00/$9.00</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">Sindhi Biryani</td>
+                        <td class="menu__item">2:1/4:1</td>
+                        <td class="menu__item">$7.50/$9.50</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">Hydrabadi Biryani</td>
+                        <td class="menu__item">2:1/4:1</td>
+                        <td class="menu__item">$8.00/$10.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="menu__item menu__rb" colspan="4">
+                            Raita &amp; Borhani $4.00
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p class="center">
+                <a href="#">Back to Top</a>
+            </p>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy;<time id="year"></time></span>
+            <span class="nowrap">Biryani Bliss</span>
+        </p>
+    </footer>
+</body>
+</html>

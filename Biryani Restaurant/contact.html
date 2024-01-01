@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samira Ali">
+    <meta name="description" content="Contact Information for Biryani Bliss">
+    <title>Contact Us - BB</title>
+    <link rel="icon" href="img/Biryani Bliss Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1"><img src="img/Biryani Bliss Logo.png" alt="Logo" width="100" height="100"></h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <figure>
+            <img src="img/Chicken Biryani with Raita.jpg" alt="Biryani served with raita" title="Biryani ready to eat!" width="1000" height="500">
+            <figcaption class="offscreen">
+                Chicken Biryani Served With Raita
+            </figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+        <article class="main__article">
+            <h2>Our Location</h2>
+            <address>
+                31/D, Rankin Street, Wari, Dhaka-1203
+            </address>
+            <br><br>
+            Phone: <a href="tel:01934566666">01934566666</a>
+        </article>
+        <hr>
+        <article class="main__article contact">
+            <h2 class="contact__h2">Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get" class="contact__form">
+                <fieldset class="contact__fieldset">
+                    <legend class="offscreen">Send Us A Message</legend>
+                    <p class="contact__p">
+                        <label class="contact__label" for="name">Name:</label>
+                        <input class="contact__input" type="text" name="name" id="name" placeholder="Enter your name" required>
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="email">Email:</label>
+                        <input class="contact__input" type="text" name="email" id="email" placeholder="Enter your email address" required>
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="message">Your message:</label>
+                        <br>
+                        <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                    </p>
+                </fieldset>
+                <button class="contact__button" type="submit">Send</button>
+                <button class="contact__button" type="reset">Reset</button>
+            </form>
+        </article>
+        <br>
+        <a href="#">Back to Top</a>
+        <br>    
+    </main>
+
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">Biryani Bliss</span>
+        </p>
+    </footer>
+</body>
+</html>
